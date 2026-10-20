@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Energy-Aware Scheduling for Serverless LLM Serving on Shared GPUs",
+    "description": "Developed an energy-aware LLM serving prototype deployed on HPE GreenLake, integrating workload dispatch and consolidation across shared GPUs. Reduced energy consumption by 56% while maintaining SLO attainment on par with state-of-the-art serving systems.",
+    "organization": "Hewlett Packard Enterprise Labs",
+    "section": "Selected projects",
+    "result": "56% lower energy consumption at comparable SLO attainment"
+  },
+  {
+    "title": "Accelerating Dynamic Sparse Attention for Long-Context Decoding",
+    "description": "Designed a temporal-locality-aware runtime that speculatively computes attention over predicted top-K KV blocks while overlapping execution with KV selection. Combined this scheduling approach with a custom FA3-style kernel, reducing per-token decoding latency by over 40%.",
+    "organization": "University of Pittsburgh",
+    "section": "Selected projects",
+    "result": "Over 40% lower per-token decoding latency"
+  },
+  {
+    "title": "KV Cache Compression for Long Video Generation",
+    "description": "Developed an online KV-cache compression runtime integrated into SGLang-Diffusion to manage growing KV histories during long-form video generation. Combined on-the-fly compression with prefix-tree-based cache reuse to avoid redundant KV computation, achieving a >20x compression ratio and >5x lower next-chunk latency.",
+    "organization": "University of Pittsburgh",
+    "section": "Selected projects",
+    "result": ">20x KV compression and >5x lower next-chunk latency"
+  },
+  {
+    "title": "RL Training Acceleration for Multi-Agent Systems",
+    "description": "Implemented a dependency-aware rollout policy on top of Slime and OWL, coordinating multi-agent execution around inter-agent dependencies to avoid blocked rollouts during RL training.",
+    "organization": "University of Pittsburgh",
+    "section": "Selected projects",
+    "result": ""
+  },
+  {
+    "title": "Efficient RAG Serving",
+    "description": "Designed a multi-GPU prefix KV-cache management policy for RAG serving, combining workload redistribution with out-of-order query execution to coordinate cache usage and query scheduling. Reduced time to first token (TTFT) by over 64%.",
+    "organization": "University of Pittsburgh",
+    "section": "Additional projects",
+    "result": "Over 64% lower time to first token"
+  },
+  {
+    "title": "Multi-Tenant Continual Learning",
+    "description": "Proposed an inference-training co-scheduling framework that uses integer linear programming to dynamically reconfigure GPU MIG slices. Coordinated resource allocation across inference and continual-learning workloads, improving SLO attainment and accuracy by over 1.4x and 1.49x, respectively.",
+    "organization": "University of Pittsburgh",
+    "section": "Additional projects",
+    "result": "Over 1.4x SLO attainment and 1.49x accuracy"
+  },
+  {
+    "title": "Raptor Framework",
+    "description": "Developed a Rust-based scheduling framework for distributed DNN training. Formulated parallelism strategy selection as an integer linear program, enabling automatic, optimization-driven planning of parallel execution for distributed training workloads.",
+    "organization": "Enflame Technology Inc., Shanghai, CN",
+    "section": "Additional projects",
+    "result": ""
+  },
+  {
+    "title": "MLIR Operator Conversion",
+    "description": "Implemented conversions between custom MLIR dialects and built-in dialects, bridging custom operator representations with the MLIR compilation infrastructure.",
+    "organization": "Enflame Technology Inc., Shanghai, CN",
+    "section": "Additional projects",
+    "result": ""
+  }
+]

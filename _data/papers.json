@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Energy-Aware Scheduling for Serverless LLM Serving on Shared GPUs",
+    "authors": "T. Wang, G. Rattihalli, A. Dhakal, L. Shangguan, D. Milojicic",
+    "venue": "ATC 2026",
+    "group": "Publications",
+    "paper_url": null,
+    "code_url": null
+  },
+  {
+    "title": "WAGES: Workload-Aware GPU Sharing System for Energy-Efficient Serverless LLM Serving",
+    "authors": "T. Wang, G. Rattihalli, A. Dhakal, X. Tang, D. Milojicic",
+    "venue": "SC 2025 Workshop",
+    "group": "Publications",
+    "paper_url": null,
+    "code_url": null
+  },
+  {
+    "title": "Improving GPU Multi-Tenancy Through Dynamic Multi-Instance GPU Reconfiguration",
+    "authors": "T. Wang, S. Li, B. Li, Y. Dai, A. Li, G. Yuan, Y. Ding, Y. Zhang, and X. Tang",
+    "venue": "JSA",
+    "group": "Publications",
+    "paper_url": null,
+    "code_url": null
+  },
+  {
+    "title": "ReelCache: An Efficient KV Cache Compression System for Long Video Generation",
+    "authors": "T. Wang, D. Yu, Z. Ren, J. Zhang, L. Shangguan",
+    "venue": "under review at MLSys 2027",
+    "group": "Under review",
+    "paper_url": null,
+    "code_url": null
+  },
+  {
+    "title": "Predict, Reuse, and Repair: Accelerating Dynamic Sparse Attention for Long-Context LLM Decoding",
+    "authors": "T. Wang, G. Rattihalli, A. Dhakal, J. Li, Z. Ren, D. Milojicic, L. Shangguan",
+    "venue": "under review at ICLR 2027",
+    "group": "Under review",
+    "paper_url": null,
+    "code_url": null
+  },
+  {
+    "title": "A Similarity-based Token Pruning for Vision Transformers in Self-Supervised Learning",
+    "authors": "S. Li, Q. Tan, Y. Dai, Z. Kong, T. Wang, J. Liu, A. Li, N. Liu, Y. Ding, X. Tang, and G. Yuan",
+    "venue": "ICLR 2025",
+    "group": "Publications",
+    "paper_url": null,
+    "code_url": null
+  },
+  {
+    "title": "STAR: Sub-Entry Sharing-Aware TLB for Multi-Instance GPU",
+    "authors": "B. Li, Y. Wang, T. Wang, L. Eeckhout, J. Yang, A. Jaleel, and X. Tang",
+    "venue": "MICRO 2024",
+    "group": "Publications",
+    "paper_url": null,
+    "code_url": null
+  }
+]

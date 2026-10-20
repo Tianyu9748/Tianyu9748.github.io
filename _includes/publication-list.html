@@ -1,0 +1,25 @@
+{% assign groups = "Publications|Under review" | split: "|" %}
+{% assign heading_level = include.heading_level | default: 2 %}
+{% for group in groups %}
+{% assign entry_heading = heading_level %}
+{% if group == "Under review" %}
+<h{{ heading_level }} id="under-review">Under review</h{{ heading_level }}>
+{% assign entry_heading = heading_level | plus: 1 %}
+{% endif %}
+<div class="publication-list">
+{% assign papers = site.data.papers | where: "group", group %}
+{% for paper in papers %}
+  <article class="publication-entry">
+    <h{{ entry_heading }} class="publication-title">{{ paper.title | escape }}</h{{ entry_heading }}>
+    <p class="publication-authors">{{ paper.authors | escape | replace: "T. Wang", "<strong>T. Wang</strong>" }}</p>
+    <p class="publication-venue">{{ paper.venue | escape }}</p>
+    {% if paper.paper_url or paper.code_url %}
+    <p class="publication-links">
+      {% if paper.paper_url %}<a href="{{ paper.paper_url }}">Paper</a>{% endif %}
+      {% if paper.code_url %}<a href="{{ paper.code_url }}">Code</a>{% endif %}
+    </p>
+    {% endif %}
+  </article>
+{% endfor %}
+</div>
+{% endfor %}

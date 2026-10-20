@@ -1,0 +1,23 @@
+---
+permalink: /research/
+title: "Research"
+excerpt: "Projects in LLM serving, video KV-cache compression, GPU resource sharing, and training systems."
+---
+
+<p class="page-lead">I build systems that make better use of computation, memory, and energy across generative AI workloads.</p>
+
+{% assign sections = "Selected projects|Additional projects" | split: "|" %}
+{% for section in sections %}
+<section class="project-section" aria-labelledby="{{ section | slugify }}">
+  <h2 id="{{ section | slugify }}">{{ section }}</h2>
+  {% assign projects = site.data.projects | where: "section", section %}
+  {% for project in projects %}
+  <article class="project-entry">
+    <h3>{{ project.title | escape }}</h3>
+    <p class="entry-context">{{ project.organization | escape }}</p>
+    <p class="project-description">{{ project.description | escape }}</p>
+    {% if project.result != empty %}<p class="result-label">{{ project.result | escape }}</p>{% endif %}
+  </article>
+  {% endfor %}
+</section>
+{% endfor %}
