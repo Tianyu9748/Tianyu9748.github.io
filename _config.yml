@@ -9,7 +9,7 @@ baseurl: ""
 repository: "Tianyu9748/Tianyu9748.github.io"
 
 author:
-  avatar: "tianyu-wang.jpg"
+  avatar: "tianyu-wang.jpg?v=2f192ca2"
   name: "Tianyu (Max) Wang"
   bio: "Ph.D. student in Computer Science. Building efficient systems for generative AI."
   location: "Pittsburgh, PA"
